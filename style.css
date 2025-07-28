@@ -1,3 +1,55 @@
-body{
-    background-color: blue /* verde claro suave */
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natureza Viva - Loja de Produtos Naturais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Natureza Viva</h1>
+    <p>Saúde e bem-estar direto da natureza 🌱</p>
+    <nav>
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="produtos">
+      <h2>Nossos Produtos</h2>
+      <div class="produto">
+        <h3>Chá de Camomila</h3>
+        <p>R$10,00 - Calmante natural</p>
+      </div>
+      <div class="produto">
+        <h3>Mel Orgânico</h3>
+        <p>R$25,00 - Produzido por apicultores locais</p>
+      </div>
+      <div class="produto">
+        <h3>Óleo de Coco</h3>
+        <p>R$18,00 - 100% puro</p>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>Somos apaixonados por bem-estar e sustentabilidade. Oferecemos produtos naturais com qualidade e respeito à natureza.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: contato@naturezaviva.com.br</p>
+      <p>WhatsApp: (99) 99999-9999</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Natureza Viva - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
